@@ -1,0 +1,3 @@
+Definir un campo de texto CHAR o VARCHAR como BINARY (binario) sólo afecta en el ordenamiento de los datos: en vez de ser indiferentes a mayúsculas y minúsculas, un campo BINARY se ordenará teniendo en cuenta esta diferencia, por lo cual, a igualdad de letra, primero aparecerán los datos que contengan esa letra en mayúsculas.
+
+Se define desde el phpMyAd
